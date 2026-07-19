@@ -3,6 +3,8 @@
 name: Push component to https://components.espressif.com
 on:
   push:
+    branches:
+      - master
 jobs:
   upload_components:
     permissions:
