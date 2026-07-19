@@ -1,4 +1,4 @@
-version: 0.0.1
+version: 1.0.0
 description: Driver for RV-3028-C7 Ultra low power RTC module
 url: https://github.com/JavSalv/rv-3028-c7
 repository: https://github.com/JavSalv/rv-3028-c7
