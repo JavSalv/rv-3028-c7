@@ -20,3 +20,4 @@ jobs:
           components: "rv-3028-c7: ."
           namespace: "JavSalv"
           skip_pre_release: true
+          api_token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
