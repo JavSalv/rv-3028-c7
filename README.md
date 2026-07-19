@@ -1,9 +1,9 @@
-# RV-3028-C7 ESP-IDF component
-
-![RV-3028-C7 package image](https://www.mouser.de/images/microcrystal/lrg/RV-3028-C7_series_t.jpg)
+# RV-3028-C7 ESP-IDF driver
 
 ESP-IDF I2C driver for the Micro Crystal RV-3028-C7 ultra-low-power
 real-time clock. It uses the `i2cdev` component for thread-safe communication.
+
+<img width="400" height="400" alt="RV-3028-C7_series_t" src="https://github.com/user-attachments/assets/3301dda8-61da-4305-a887-18385d5443e2" />
 
 ## Features
 
