@@ -1,3 +1,12 @@
+/**
+ * @file test_rv3028.c
+ * @brief Contains unit tests for the Unity testing framework for the rv-3028-c7 driver.
+ *
+ * Copyright (c) 2026 Javier Salvador
+ *
+ * This file is distributed under the MIT License as described in the "LICENSE.md" file.
+ *
+ */
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 #include <string.h>

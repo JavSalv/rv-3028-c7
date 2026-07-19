@@ -1,6 +1,13 @@
 /**
  * @file rv-3028-c7.c
  * @brief ESP-IDF driver for the Micro Crystal RV-3028-C7 RTC.
+ *
+ * Copyright (c) 2026 Javier Salvador
+ *
+ * Inspired by: Constantin Koch's RV-3028-C7 Arduino Library
+ * (https://github.com/constiko/RV-3028_C7-Arduino_Library)
+ *
+ * This file is distributed under the MIT License as described in LICENSE.md.
  */
 
 #include <esp_idf_lib_helpers.h>
