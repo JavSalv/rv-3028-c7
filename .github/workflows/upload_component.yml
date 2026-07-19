@@ -17,4 +17,4 @@ jobs:
         with:
           components: "rv-3028-c7: ."
           namespace: "JavSalv"
-          skip_pre_relsease: true
+          skip_pre_release: true
