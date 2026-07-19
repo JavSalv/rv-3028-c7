@@ -1,0 +1,20 @@
+menu "RV-3028-C7 example configuration"
+
+    config EXAMPLE_I2C_PORT
+        int "I2C port"
+        range 0 0 if SOC_I2C_NUM = 1
+        range 0 1 if SOC_I2C_NUM = 2
+        range 0 2 if SOC_I2C_NUM = 3
+        default 0
+
+    config EXAMPLE_I2C_SDA
+        int "SDA GPIO"
+        range 0 SOC_GPIO_IN_RANGE_MAX
+        default 14
+
+    config EXAMPLE_I2C_SCL
+        int "SCL GPIO"
+        range 0 SOC_GPIO_IN_RANGE_MAX
+        default 13
+
+endmenu
